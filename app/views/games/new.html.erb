@@ -1,0 +1,13 @@
+<h1>New game</h1>
+<div class="letters">
+  <%= @letters %>
+</div>
+<div class="form">
+  <p>What is the longest word you can find?</p>
+  <form action="/score" method="post">
+  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+  <%= hidden_field_tag 'token', @letters %>
+    <input type="text" name="answer" class="input">
+    <input type="submit" value="Submit" class="btn">
+  </form>
+</div>
