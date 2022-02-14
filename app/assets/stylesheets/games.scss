@@ -4,3 +4,32 @@
 .profiler-results {
   display: none;
 }
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.letters {
+  font-size: larger;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: cornflowerblue;
+}
+
+.btn {
+  padding: 7px;
+  background-color: white;
+  font-weight: 500;
+  color: cornflowerblue;
+  border: 1px solid grey;
+  border-radius: 0 3px 3px 0;
+}
+
+.input {
+  padding: 7px;
+  width: 200px;
+  border-radius: 3px 0 0 3px;
+  border: 1px solid grey;
+  margin-right: -6px
+}
